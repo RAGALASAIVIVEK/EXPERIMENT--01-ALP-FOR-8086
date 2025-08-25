@@ -78,16 +78,16 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 ```
 org 100h
-mov ax,7db3h
-mov bx,5adbh
+mov ax,5dc2h
+mov bx,4adbh
 add ax,bx
 mov [1000h],ax
-mov cx,7db3h
+mov cx,5b3ch
 mov bx,5adbh
 sub ax,bx
 mov [1002h],ax
 mul bx
-mov [1004h], ax
+mov [1004h],ax
 div cx
 mov [1006h],ax
 ret
